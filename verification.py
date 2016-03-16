@@ -22,7 +22,6 @@ while True:
         break
     elif name !='nolan':
         print "Sorry, I dno't know you"
-#   elif raw_input("you wanna type another name?"):
         name = raw_input("you wanna type another name?")
         if name =='root':
             print 'Hi,boss, it is a joke, you know I know you!'
