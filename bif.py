@@ -37,3 +37,6 @@ tuple([iterable])生成元组
 #反射
 callable(object) 检查对象是否可以调用
 dir([object]) 返回对象的所有方法
+delattr(object,name)删除对象的属性
+isinstance(object,classinfo)判断一个对象是否是clasinfo的类型
+type()返回对象的类型
