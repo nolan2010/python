@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 #coding=utf-8
 
-##def sayHi(name):
-##    print "Hello World!"
+#def sayHi(name):
+#    print "Hello World!"
 #
 #def sayHi2(name):
 #    print "Hello, %s, how are you?" %name
 #
 #n = 'Nolan'
-#
-##sayHi(n)
+##
+###sayHi(n)
 #sayHi2(n)
-#
+##
 
 #def hello(name):
 #    return 'hello,' + name + '!'
@@ -28,7 +28,7 @@
 #    "将一个字符串作为传入参数"
 #    print str
 
-”“”#按值传递参数和按引用传递参数
+#按值传递参数和按引用传递参数
 #在函数里修改参数,调用时原始的参数即发生改变
 def changeme(mylist):
     "修改传入的列表"
