@@ -21,15 +21,18 @@ import time
 #result=sayHi2(name='Nolan',age=26,job='IT')
 #print result.next()
 #print result.next()
-
-#lambda 函数
-a = lambda x: x*x
-print a(2)  
-#map函数
-b=range(10)
-print b
-print(map(a,b))
-
+#
+##lambda 函数
+#a = lambda x: x*x
+#print a(2)  
+##map函数
+#b=range(10)
+#print b
+#print(map(a,b))
+##sorted函数
+＃a = {5:'a',3:'c',9:'f',7:'e'}
+＃b=sorted(a.items(),key=lambda x:x[0])
+＃print b
 
 
 
