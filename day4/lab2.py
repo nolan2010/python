@@ -12,3 +12,9 @@ while True:
         print "CAPS is " ,a.upper()
         break
     
+#*****************
+input_char = raw_input('Please enter \033[31;1m a alapha\033[0m:')
+
+output_char = chr(ord(input_char) - (ord('a')-ord('A')))
+
+print output_char
